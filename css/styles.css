@@ -1,3 +1,8 @@
+.body {
+  font-family: "Roboto", sans-serif;
+  background-color: #212121;
+}
+
 .points {
   list-style-type: none;
 }
@@ -9,52 +14,73 @@
   left: 215px;
   top: 24px;
 }
+.logotip:hover {
+  color: #2196f3;
+  text-decoration: underline;
+}
+.logotip:focus {
+  outline: 2px solid #2196f3;
+}
 
 .logo-web {
   font-family: "Raleway";
   font-style: normal;
-  font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.2;
   color: #2196f3;
 }
 
 .logo-studio {
   font-family: "Raleway";
   font-style: normal;
-  font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.2;
   color: #000000;
 }
 
 .link {
   color: #212121;
+  text-decoration: none;
 }
 
 .link:hover {
   color: #2196f3;
+  text-decoration: underline;
+}
+.link:focus {
+  outline: 2px solid #2196f3;
 }
 
 .tel {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.1;
   letter-spacing: 0.02em;
   color: #757575;
+  text-decoration: none;
+}
+.tel:hover {
+  color: #2196f3;
+  text-decoration: underline;
+}
+.tel:focus {
+  outline: 2px solid #2196f3;
 }
 
 .mail {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.1;
   letter-spacing: 0.02em;
   color: #2196f3;
+  text-decoration: none;
 }
+.mail:hover {
+  color: #2196f3;
+  text-decoration: underline;
+}
+.mail:focus {
+  outline: 2px solid #2196f3;
+}
+
 .order {
   position: absolute;
   width: 1600px;
@@ -67,11 +93,8 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
+  line-height: 1.4;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -90,11 +113,11 @@
   height: 30px;
   left: 724px;
   top: 440px;
-  font-family: "Roboto";
   display: center;
   align-items: center;
   letter-spacing: 0.06em;
   color: #ffffff;
+  cursor: pointer;
 }
 
 /*особливості команди*/
@@ -118,21 +141,15 @@ ul.description-list li {
 }
 
 .description-heder {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 700;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.1;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #212121;
 }
 .description-text {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.7;
   color: #757575;
 }
 
@@ -145,11 +162,8 @@ ul.description-list li {
   top: 966px;
 }
 .work {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.2;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
@@ -174,11 +188,8 @@ ul.description-list li {
   background: #f5f4fa;
 }
 .our-team {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.2;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
@@ -247,32 +258,40 @@ ul.description-list li {
   background: #2f303a;
 }
 .maps {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.7;
   color: #ffffff;
+  text-decoration: none;
+}
+.maps:hover {
+  color: #2196f3;
+  text-decoration: underline;
+}
+.maps:focus {
+  outline: 2px solid #2196f3;
 }
 
 .contact-link {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.7;
   color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+.contact-link:hover {
+  color: #2196f3;
+  text-decoration: underline;
+}
+
+.contact-link:focus {
+  outline: 2px solid #2196f3;
 }
 
 /*******************************porfolio************************************/
 
 .button-portfolio {
   list-style-type: none;
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 1.6;
   text-align: center;
   color: #212121;
 }
@@ -294,6 +313,7 @@ ul.button-portfolio li {
   top: 208px;
   outline: none;
   border: none;
+  cursor: pointer;
 }
 .button-oll:hover {
   outline: none;
@@ -317,6 +337,7 @@ ul.button-portfolio li {
   top: 208px;
   outline: none;
   border: none;
+  cursor: pointer;
 }
 .button-web:hover {
   outline: none;
@@ -340,6 +361,7 @@ ul.button-portfolio li {
   top: 208px;
   outline: none;
   border: none;
+  cursor: pointer;
 }
 .button-addition:hover {
   outline: none;
@@ -363,6 +385,7 @@ ul.button-portfolio li {
   top: 208px;
   outline: none;
   border: none;
+  cursor: pointer;
 }
 .button-design:hover {
   outline: none;
@@ -386,6 +409,7 @@ ul.button-portfolio li {
   top: 208px;
   outline: none;
   border: none;
+  cursor: pointer;
 }
 .button-marceting:hover {
   outline: none;
@@ -429,20 +453,14 @@ ul.projekt-cards li {
 }
 
 .projekt {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 700;
   font-size: 18px;
-  line-height: 36px;
+  line-height: 2;
   color: #212121;
 }
 
 .project-description {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.9;
   color: #757575;
 }
 
