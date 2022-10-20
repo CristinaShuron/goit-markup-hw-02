@@ -1,5 +1,5 @@
 :root {
-  --primary-text-color: rgba(0,0,0,0.8); /* вторинний колір тексту rgba(0, 0, 0, 0.8);*/
+  --primary-text-color: rgba(0,0,0,0.8); /* вторинний колір тексту;*/
   --title-text-color: #212121; /* колір основного тексту #212121 */
   --accent-color: #2196f3; /* акцент #18A0FB */
   --primary-white-color: #ffffff;
@@ -9,7 +9,7 @@ body {
   background-color: var(--primary-white-color);
   color: var(--primary-text-color);
   font-family: Roboto, sans-serif;
-  letter-spacing: -0.015em;
+  letter-spacing: 0.03em;
   font-size: 18px;
   line-height: 1.67;
 }
@@ -124,6 +124,7 @@ ul.points li {
   outline: 2px solid #2196f3;
 }
 
+/* задає фон під заголовок і кнопку */
 .order {
   position: absolute;
   width: 1600px;
